@@ -1,9 +1,11 @@
+//Procedure of remote adding repo
 //git init adding .git into directory -- turning regular into git repo
 //git add *.java (staged all java files--source files)
 //or create .gitignore(All files format) (has *.class) so to ignore all class file but .gitignore when tracking files
 //git remote add origin git@github.com:xzrRyan/lecture-5.git     link our git directory with github repo 
 //git branch -M main;  by convention, default branch is main or master-- make sure file branch same for github and local computer
 //git push -u origin main:  push all files in local repo to github repo
+//(find repo in github desktop)
 public class gitfile {
     public static int countWords(String sentence){
         int spaceCount = 0;
@@ -65,3 +67,6 @@ jobs:
           java -cp lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar:.org.junit.runner.JunitCore <testingfile>
 
 */
+
+//by convention: 0 exit code -- success;  non-zero code -- error in program
+//$? : previous command code; we must print it with <echo>
