@@ -15,7 +15,7 @@ public class gitfile {
         return spaceCount + 1;
     }
 }
-/* indentation is key for markup languages
+/* indentation is key for markup languages, just as colon
 //continuous integration: 
 //we setup a workflow(in Actions): create main.yml(YAML-- yet anothrt markup language)
 //whenever push commits to repo, trigger workflow's build(running Junit test)
