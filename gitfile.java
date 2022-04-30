@@ -15,7 +15,7 @@ public class gitfile {
         return spaceCount + 1;
     }
 }
-/*
+/* indentation is key for markup languages
 //continuous integration: 
 //we setup a workflow(in Actions): create main.yml(YAML-- yet anothrt markup language)
 //whenever push commits to repo, trigger workflow's build(running Junit test)
@@ -60,7 +60,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run Junit test    //changing name
-        run: 
+        run:
           javac -cp lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar <methodfile><testingfile>
           java -cp lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar:.org.junit.runner.JunitCore <testingfile>
 
